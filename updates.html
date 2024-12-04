@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Internal Site - Updates</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand text-uppercase" href="#">SMR Company</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="tasks.html">Tasks</a></li>
+                <li class="nav-item"><a class="nav-link" href="suggestions.html">Suggestions</a></li>
+                <li class="nav-item"><a class="nav-link" href="updates.html">Updates</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="reports.html">Reports</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h3>Latest Company Updates</h3>
+        <div class=" mt-5"> 
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#updateModal">
+                View Latest Updates
+            </button>
+        </div>
+
+        <div class="modal fade" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="updateModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="updateModalLabel">Latest Updates</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>New Office Opening</h6>
+                        <p><strong>Date:</strong> 2024-11-21</p>
+                        <p>We are excited to announce the opening of our new office in Dubai!</p>
+                        
+                        <h6>Updated Holiday Schedule</h6>
+                        <p><strong>Date:</strong> 2024-11-15</p>
+                        <p>Please check the updated holiday schedule for the upcoming months.</p>
+                        
+                        <h6>Upcoming Training Sessions</h6>
+                        <p><strong>Date:</strong> 2024-11-10</p>
+                        <p>Training sessions on project management will be held next week. Don't miss out!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+     
+        <div class=" mt-3">
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#announcementModal">
+                View Important Announcement
+            </button>
+        </div>
+
+        <div class="modal fade" id="announcementModal" tabindex="-1" role="dialog" aria-labelledby="announcementModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="announcementModalLabel">Important Announcement</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>We are implementing a new remote work policy effective from January 2025. Please read the full details in the company portal.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

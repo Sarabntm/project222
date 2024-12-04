@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Internal Site - Monthly Reports</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand text-uppercase" href="#">SMR Company</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="tasks.html">Tasks</a></li>
+                <li class="nav-item"><a class="nav-link" href="suggestions.html">Suggestions</a></li>
+                <li class="nav-item"><a class="nav-link" href="updates.html">Updates</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="reports.html">Reports</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h3>Monthly Reports</h3>
+        <div class="row mt-5"> 
+            <table class="table">
+                <thead>
+                    <tr class="bg-secondary text-white">
+                        <th>Month</th>
+                        <th>Report Title</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>January 2024</td>
+                        <td>Annual Financial Overview</td>
+                        <td><button type="button" class="btn btn-info btn-sm" data-toggle="modal"al data-target="#reportMod1">View Details</button></td>
+                    </tr>
+                    <tr class="table-light">
+                        <td>February 2024</td>
+                        <td>Sales Performance Analysis</td>
+                        <td><button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#reportModal2">View Details</button></td>
+                    </tr>
+                    <tr>
+                        <td>March 2024</td>
+                        <td>Market Research Insights</td>
+                        <td><button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#reportModal3">View Details</button></td>
+                    </tr>
+                    <tr class="table-light">
+                        <td>April 2024</td>
+                        <td>Product Development Update</td>
+                        <td><button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#reportModal4">View Details</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="modal fade" id="reportModal1" tabindex="-1" role="dialog" aria-labelledby="reportModalLabel1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="reportModalLabel1">January 2024 - Annual Financial Overview</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Detailed analysis of the annual financial performance, including revenue, expenses, and profit margins.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="modal fade" id="reportModal2" tabindex="-1" role="dialog" aria-labelledby="reportModalLabel2" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="reportModalLabel2">February 2024 - Sales Performance Analysis</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>A comprehensive report on sales performance metrics, including key drivers and trends observed in February.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+    <div class="modal fade" id="reportModal3" tabindex="-1" role="dialog" aria-labelledby="reportModalLabel3" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="reportModalLabel3">March 2024 - Market Research Insights</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Insights into recent market trends and consumer behavior, critical for strategic planning.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="reportModal4" tabindex="-1" role="dialog" aria-labelledby="reportModalLabel4" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="reportModalLabel4">April 2024 - Product Development Update</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>An update on the latest developments in product design and upcoming launches.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Internal Site - Tasks</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand text-uppercase" href="#">SMR Company</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="tasks.html">Tasks</a></li>
+                <li class="nav-item"><a class="nav-link" href="suggestions.html">Suggestions</a></li>
+                <li class="nav-item"><a class="nav-link" href="updates.html">Updates</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="reports.html">Reports</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h3>Task Schedule</h3>
+        <div class="row mt-5"> 
+            <table class="table table-striped table-bordered">
+                <thead class="bg-secondary text-white">
+                    <tr>
+                        <th>Task</th>
+                        <th>Assigned To</th>
+                        <th>Deadline</th>
+                        <th colspan="2">Work Time</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Project Kickoff</td>
+                        <td>Ahmed Ali</td>
+                        <td>2024-12-01</td>
+                        <td colspan="2">9:00 AM - 12:00 PM</td>
+                        <td>In Progress</td>
+                    </tr>
+                    <tr>
+                        <td>Design Review</td>
+                        <td>Fatima Mohamed</td>
+                        <td>2024-11-15</td>
+                        <td colspan="2">10:00 AM - 11:30 AM</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Data Analysis</td>
+                        <td>Ali Said</td>
+                        <td>2024-12-30</td>
+                        <td colspan="2">1:00 PM - 3:00 PM</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <td>Administrative Tasks</td>
+                        <td>Sara Khalid</td>
+                        <td>2024-12-20</td>
+                        <td colspan="2">9:00 AM - 5:00 PM</td>
+                        <td>In Progress</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h4 class="mt-5">Upcoming Tasks</h4>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-white bg-warning mb-3">
+                    <div class="card-header">Project Kickoff</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Assigned to: Ahmed Ali</h5>
+                        <p class="card-text">Deadline: 2024-12-01</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-white bg-warning mb-3" >
+                    <div class="card-header">Administrative Tasks</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Assigned to: Sara Khalid</h5>
+                        <p class="card-text">Deadline: 2024-12-20</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-white bg-info mb-3">
+                    <div class="card-header">Data Analysis</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Assigned to: Ali Said</h5>
+                        <p class="card-text">Deadline: 2024-12-30</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
